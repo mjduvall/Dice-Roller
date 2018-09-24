@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator Pro for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" xmlns:vectornator="http://vectornator.io" version="1.1" viewBox="0 0 1024 1024">
+<metadata>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="SnapToEdges" value="0"/>
+<vectornator:setting key="Units" value="Pixels"/>
+<vectornator:setting key="DynamicGuides" value="1"/>
+<vectornator:setting key="SnapToPoints" value="0"/>
+<vectornator:setting key="CMYKEnabledKey" value="0"/>
+<vectornator:setting key="SnapToGrid" value="0"/>
+<vectornator:setting key="ShowGrid" value="1"/>
+<vectornator:setting key="GridSpacing" value="36"/>
+</metadata>
+<defs/>
+<g id="Layer 1" vectornator:layerName="Layer 1">
+<g opacity="1">
+<path d="M510.984+82.6142L902.714+697.7L119.503+698.308L510.984+82.6142Z" opacity="1" fill="#68d8cc"/>
+<path d="M510.984+82.6142L951.056+248.443L902.714+697.7L510.984+82.6142Z" opacity="1" fill="#51bdbd"/>
+<path d="M510.748+82.5911L76.7223+248.778L119.503+698.308L510.748+82.5911Z" opacity="1" fill="#36aeae"/>
+<path d="M902.714+697.7L522.273+957.569L119.503+698.308L902.714+697.7Z" opacity="1" fill="#2f9494"/>
+<path d="M510.748+82.5911L512.697+16.7998L951.056+248.443L510.748+82.5911Z" opacity="1" fill="#36ae99"/>
+<path d="M510.748+82.5911L512.697+16.7998L76.7223+248.778L510.748+82.5911Z" opacity="1" fill="#2f9583"/>
+<path d="M119.503+698.308L62.0121+740.787L118.231+767.266L522.273+957.569L119.503+698.308Z" opacity="1" fill="#298373"/>
+<path d="M119.503+698.308L62.0121+740.787L76.7223+248.778L119.503+698.308Z" opacity="1" fill="#2f9583"/>
+<path d="M902.714+697.7L979.909+729.543L522.273+957.569L902.714+697.7Z" opacity="1" fill="#2f9583"/>
+<path d="M902.714+697.7L916.119+703.23L979.909+729.543L951.056+248.443L902.714+697.7Z" opacity="1" fill="#36ae99"/>
+</g>
+</g>
+<g id="Layer 2" vectornator:layerName="Layer 2">
+<text x="0" font-family="Georgia" y="0" text-anchor="middle" vectornator:text="7" fill="#ffffff" font-size="200" vectornator:width="302.315" opacity="1" transform="matrix(1.59701 0 0 1.91502 279.56 213.403)">
+<tspan x="151.157" y="183" textLength="100.488">
+7</tspan>
+</text>
+<path d="M279.56+50.6215L279.56+50.6215L279.56+55.6836L279.56+55.6836L279.56+50.6215Z" opacity="1" fill="#ffffff"/>
+<path d="M624.814-128.723L632.045-128.723L632.045-115.706L624.814-115.706L624.814-128.723Z" opacity="1" fill="#ffffff"/>
+</g>
+</svg>
