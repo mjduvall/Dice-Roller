@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="portrait">
+    <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,15 +14,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DiceRoller" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQJ-FF-XqY">
-                                <rect key="frame" x="117.66666666666669" y="409.33333333333331" width="140" height="60"/>
+                                <rect key="frame" x="60" y="409.33333333333331" width="294" height="60"/>
                                 <color key="backgroundColor" red="0.75523102283477783" green="0.94244033098220825" blue="0.91032207012176514" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="aZs-nz-WDP"/>
-                                    <constraint firstAttribute="width" constant="140" id="kad-rx-AkB"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Let's Roll!">
@@ -33,19 +32,19 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which dice would you like to roll?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p4U-cY-3I1">
-                                <rect key="frame" x="38" y="144" width="300" height="76.666666666666686"/>
+                                <rect key="frame" x="38" y="144" width="339" height="76.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="6" translatesAutoresizingMaskIntoConstraints="NO" id="sPH-nL-Fl3">
-                                <rect key="frame" x="38" y="339.33333333333331" width="299" height="31"/>
+                                <rect key="frame" x="38" y="339.33333333333331" width="338" height="31"/>
                                 <connections>
                                     <action selector="sliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="t0Z-Py-3l1"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MLY-ti-0sv">
-                                <rect key="frame" x="187.66666666666666" y="269.33333333333331" width="0.0" height="0.0"/>
+                                <rect key="frame" x="207" y="269.33333333333331" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -53,6 +52,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="iQJ-FF-XqY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="7hV-Mm-EDJ"/>
                             <constraint firstItem="MLY-ti-0sv" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Cqq-Ne-mNj"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sPH-nL-Fl3" secondAttribute="trailing" constant="40" id="Ibc-o4-65f"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="p4U-cY-3I1" secondAttribute="trailing" constant="37" id="KYe-Yv-wQl"/>
